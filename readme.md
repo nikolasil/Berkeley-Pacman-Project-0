@@ -1,17 +1,22 @@
-## The was a 
-
+## This was an exercise that i did on a class Artificial Intelligence in University 
+---
 There are comments in my code.
 
-Δημιούργησα 5 ακόμα μεθόδους της κλάσης PriorityQueue
+I created 5 more methods of the PriorityQueue class:
 
- Η exists(self,item) με βοήθησε να βρώ εάν ένα item είναι μέσα στην ουρά
- Η priority(self,item,messages=1) με βοήθησε να βρώ ένα priority ενός item.
- Η index(self,item,messages=1) με βοήθησε να βρώ ένα index ενός item στο heap.
- Η getCount(self) με βοήθησε να βρώ to μήκος της ουράς.
- Η printq(self) με βοήθησε να εκτυπώσω την ουρά μου για τα τεστ μου.
-Το messages=1 σε κάποιες μεθόδους είναι απλά για να ενεργοποιήσεις/απενεργοποιήσεις τις
-εκτυπώσεις που ενημερώνουν εάν έγινε κάτι απρόσμενο στις μεθόδους.
+- exists(self,item) helped me find an item in the queue.
+- priority(self,item,messages=1) helped me find a priority of an item.
+- index(self,item,messages=1) helped me find an index of an item in the heap.
+- getCount(self) helped me find the length of the queue.
+- printq(self) helped me print the queue for testing the code.
+
+The messages=1 in some methons is there to enable\disable the prints if there was an error.
+
 push(self, item, priority=0,messages=1):
- Δεν επιτρέπει διπλότυπα στην ουρά. Επιτρέπονται μόνο διπλότυπα priorities και όχι items.
-H PQSort(list) συνάρτηση δεν επιτρέπει διπλότυπα όπως η push. Παράδειγμα: Εάν list = [1,2,6,8,5,2,3]
-τότε θα επιστρέψει [1,2,3,5,6,8]. Το 2 δηλαδή υπάρχει μία φορά. 
+Doesn't allow duplicates items in the queue. But is is allowed to have duplicates of priorities.
+
+PQSort(list) doen't allow duplicates like push.
+
+Example:
+list = [1,2,6,8,5,2,3]
+then return [1,2,3,5,6,8]. The 2 exists only 1 time. 
