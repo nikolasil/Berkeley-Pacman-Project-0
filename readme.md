@@ -23,7 +23,7 @@ push(self, item, priority=0,messages=1)
 
 ```python
 PQSort(list)
-# Doen't allow duplicates like push.
+# Doesn't allow duplicates like push.
 #Example:
 list = [1,2,6,8,5,2,3]
 # then the return will be
