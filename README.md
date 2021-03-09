@@ -6,8 +6,6 @@
 
 > **Run command:** python ./autograder.py
 
-> There are comments all over my code if there is something that i didn't covered here.
-
 ## Question 2
 
 ```python
